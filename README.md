@@ -50,7 +50,7 @@ I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_J
    sudo cd lede
    sudo ./scripts/feeds update -a
    sudo ./scripts/feeds install -a
-   make menuconfig
+   sudo make menuconfig
    ```
 
 4. 下载 dl 库，编译固件
