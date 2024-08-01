@@ -32,8 +32,13 @@ I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_J
 2. 安装编译依赖
 
    ```bash
+   
+   cd ~
+   
    sudo apt update -y
+   
    sudo apt full-upgrade -y
+   
    sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
    bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
    git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev libgmp3-dev \
