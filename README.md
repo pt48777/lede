@@ -47,9 +47,13 @@ I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_J
 
    ```bash
    sudo git clone https://github.com/coolsnowwolf/lede
-   sudo cd lede
+   
+   cd lede
+   
    sudo ./scripts/feeds update -a
+   
    sudo ./scripts/feeds install -a
+   
    sudo make menuconfig
    ```
 
